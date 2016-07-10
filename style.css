@@ -1,0 +1,57 @@
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 5px;
+}
+
+a img{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+
+}
+
+li button {
+  background-color: blue;
+  color: white;
+  border-color: blue;
+}
+
+input[type="text"] {
+  width: 280px;
+}
+
+#footer{
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#999;
+}
+
+/*float and to the right*/
+
+ul {
+  float: right;
+  margin-right: 4em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+div {text-align: center;}
+
+div button {margin-top: 5em;}
+
+div img {margin-top: 10em;}

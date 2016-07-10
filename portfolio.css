@@ -1,0 +1,231 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color: $gray;
+    background: #d0d0d0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: "Bitter", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 35px 0 20px 0;
+}
+
+h1 {
+  margin-top: -60px;
+}
+
+p {
+  text-align: center;
+}
+nav {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+nav ul li{
+  display: inline;
+  padding: 80px;
+}
+nav ul li a{
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.floating-menu {
+  position:fixed;
+  background:#4d4d4d;
+  left:auto;
+}
+
+floating-menu a {
+  display:block;
+}
+
+header {
+  background-image: url(https://e27.co/img/startups/14798/logo-1465875583.png);
+  background-size: 25% 45%;
+  width: 100%;
+  height: 130vh;
+	background-repeat: repeat-x;;
+	background-position: right;
+	text-align: center;
+  padding-top: 70px;
+}
+
+
+section {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+.contents {
+		text-align: center;
+	  left:0px;
+	  bottom:0px;
+	  height:30px;
+	  width:100%;
+	}
+
+
+}
+
+portfolio{
+	height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center }
+}
+
+
+#contact{
+  text-align: left;
+	align-items: left;
+  margin: 50;
+}
+
+ul {
+	padding:0;
+	list-style: none;
+}
+
+
+footer p {
+  padding: 9px;
+  margin: 0;
+	text-align: right;
+	background-color: #4d4d4d;
+	color: #f1f1f1;
+	font-size: 1em;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+}
+
+@font-face {
+    font-family: "One Punch Man";
+    src: url('https://dl.dropboxusercontent.com/s/82eb7avq9a10xyl/one-punch-man.ttf?dl=0') format("truetype");
+}
+
+.wrapper {
+  background-color: tomato;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  animation-name: colorchange;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.wrapper {
+  text-align: center;
+  display: table;
+  height: 30%;
+  width: 100%;
+}
+
+.wrapper h1 {
+  font-family: "One Punch Man", Basic Latin;
+  font-size: 120px;
+  font-weight: 100;
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  text-transform: uppercase;
+  animation-name: scaleIt;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes scaleIt {
+  from { transform: scale(1.1) }
+  to { transform: sclae(1) }
+}
+
+@keyframes colorchange {
+  0%   { background: #AE1125; }
+  25%  { background: #3782DE; }
+  50%  { background: #EC441E; }
+  75%  { background: #2E7FE1; }
+  100% { background: #F7CB44; }
+}
